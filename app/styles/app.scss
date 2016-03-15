@@ -1,0 +1,55 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+$container-large-desktop: (985px);
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #ebf4fa;
+}
+
+.header {
+  height: 50px;
+  background-color: #c1dad6;
+}
+
+.container {
+  background-color: #bbd9ee;
+}
+
+.form-control {
+  margin-top: 20px;
+}
+
+.form2 {
+  margin-top: 20px;
+}
+
+.chat-text {
+  margin-bottom: 20px;
+}
+
+.add-comment {
+  height: 30px;
+  width: 130px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  margin-top: -6px;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  color: #555;
+
+}
