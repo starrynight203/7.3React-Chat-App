@@ -2,7 +2,7 @@
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
-$container-large-desktop: (985px);
+$container-large-desktop: (685px);
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -18,38 +18,66 @@ img {
 }
 
 body {
-  background-color: #ebf4fa;
+  //background-color: #ebf4fa;
+  background: url('http://iconoun.com/demo/images/scale_grumpy_cat.png') no-repeat center center fixed;
+  background-color: #eee;
 }
 
 .header {
-  height: 50px;
-  background-color: #c1dad6;
+  height: 40px;
+  background-color: #6633bb;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  opacity: 0.9;
+  margin-right: 450px;
+  margin-left: 450px;
+  border-radius: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.convo {
+  border: 1px solid #bbb;
+  height: 150px;
+  margin-top: 7px;
+  border-radius: 4px;
+  background-color: white;
 }
 
 .container {
-  background-color: #bbd9ee;
+  background-color: #ddd;
+  border-radius: 3px;
 }
 
 .form-control {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .form2 {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .chat-text {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .add-comment {
   height: 30px;
   width: 130px;
   border-radius: 3px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   margin-top: -6px;
-  background-color: #ddd;
-  border: 1px solid #ddd;
+  background-color: #ccc;
+  border: 1px solid #bbb;
   color: #555;
+}
 
+.fa-comment {
+  padding-right: 9px;
 }

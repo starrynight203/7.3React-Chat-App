@@ -4,23 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>7 3React Chat App</title>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <header class="header"></header>
+    <div id="app" class="container-fluid"></div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <input type="text" class="form-control" placeholder="">
-            <input type="text" class="form-control form2" placeholder="">
-              <textarea class="form-control chat-text" placeholder="Chat here..." rows="5"></textarea>
-              <button type="button" class="add-comment"><i class="fa fa-comment"></i>
-                Comment</button>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12">
+           <div id="convo">
+           </div>
+         </div>
+       </div>
+       <div class="row">
+        <div id="chat-area" class="col-md-12">
         </div>
-      </div>
+       </div>
     </div>
+
 
     <script src="js/bundle.js"></script>
   </body>
